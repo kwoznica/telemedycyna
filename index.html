@@ -1,0 +1,416 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Telemedycyna</title>
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/serif.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <style>
+        .inline {
+            display: inline;
+        }
+
+        .reveal .slide-number {
+            font-size: 24pt;
+        }
+
+    </style>
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+<body>
+<div class="reveal">
+    <div class="slides">
+
+        <section>
+            <section>
+                <h1>Telechirurgia</h1>
+                <div style="text-align: right;">
+                    <p>
+                        <small>Autorzy: <br><a href="#">Paweł Maciocha</a><br>
+                            <a href="#">Katarzyna Woźnica</a>
+                        </small>
+                    </p>
+                </div>
+            </section>
+            <section id="table-of-contents" style="text-align: left">
+                <h3>Plan prezentacji</h3>
+                <p><a style="color:darkolivegreen;">1.</a> Telechirurgia - co to jest?</p>
+                <p><a style="color:darkolivegreen;">2.</a> Historia</p>
+                <p><a style="color:darkolivegreen;">3.</a> Jak to działa?</p>
+                <p><a style="color:darkolivegreen;">3.</a> Roboty medyczne</p>
+                <p><a style="color:darkolivegreen;">4.</a> Gdzie jest wykorzystywana? (do czego i lokalizacja)</p>
+                <p><a style="color:darkolivegreen;">5.</a> Wady telechirurgi</p>
+                <p><a style="color:darkolivegreen;">6.</a> Przyszłość telechirurgii</p>
+                <p><a style="color:darkolivegreen;">7.</a> Źródła</p>
+            </section>
+        </section>
+        <section>
+            <section>
+                <h2>Telechirurgia</h2>
+                <span class="fragment visible current-fragment" data-fragment-index="1"
+                      style="font-size: 30px; color: seagreen">teleoperacja</span>
+                <span class="fragment visible" data-fragment-index="2" style="font-size: 30px; color: seagreen;">, chirurgia zdalna</span><br><br>
+                <p class="fragment fade-right">rodzaj operacji</p>
+                <p class="fragment fade-right">forma telemedycyny</p>
+                <p class="fragment fade-right">operacja na odległość</p>
+                <!--<p class="fragment fade-in" style="margin-top: -33px;"><img src="js/chart1.png"/></p>-->
+            </section>
+        </section>
+        <section>
+            <section>
+                <h2>Historia</h2>
+                <h3 class="fragment">Pierwsze wykorzystanie</h3>
+                <h5 class="fragment">początek lat 60. XX wieku</h5>
+                <h5 class="fragment">1964 roku dr Michael DeBakey</h5>
+                <h5 class="fragment">Szpital Metodystów, Houston, Texas</h5>
+            </section>
+            <section>
+                <h3>Roboty chirurgiczne</h3>
+                <h5 class="fragment fade-in">początek lat 90. XX wieku</h5>
+                <h5 class="fragment fade-in">1994 rok - pierwszy robot</h5>
+                <h5 class="fragment fade-in">ZUES - 1998 roku</h5>
+                <span class="fragment visible">w 2003 roku</span>
+                <span class="fragment visible">robot da Vinci</span>
+            </section>
+            <section>
+                <h3>Pierwsza operacja</h3>
+                <h5 class="fragment fade-in">projekt Operacja Lindbergh</h5>
+                <h5 class="fragment fade-in" style="color: darkolivegreen; font-size: 30px;">7 września 2001</h5>
+                <span class="fragment fade-in" style="font-size: 32px">Robot ZUES</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                <span class="fragment visible" style="font-size: 32px">dr Jacques'a Marescaux</span>
+                <p class="fragment fade-in"><img src="js/distance.png"/></p>
+                <span class="fragment fade-in">opóźniene wynosiło 155ms</span>
+            </section>
+        </section>
+        <section>
+            <section>
+                <h3>Działanie i budowa systemu teleoperacyjnego</h3>
+                <p class="fragment fade-in-then-semi-out" style="font-size: 32px;">Roboty zdolne do operowania</p>
+                <span class="fragment fade-in-then-semi-out" style="font-size: 32px;">ZEUS i daVinci</span>
+                <p class="fragment fade-in">urządzenia typy Master-Slave</p>
+                <ul>
+                    <li class="fragment fade-left">
+                        <span class="fragment fade-left">Master</span>
+                        <span class="fragment fade-left"> - część sterownicza</span>
+                    </li>
+                    <li class="fragment fade-left">
+                        <span class="fragment fade-left">Slave</span>
+                        <span class="fragment fade-left"> - część wykonawcza</span>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <h2>Elementy po stronie chirurga</h2>
+                <ol>
+                    <li class="fragment grow">Ergonomiczne stanowisko</li>
+                    <li class="fragment grow">Okular wizera</li>
+                    <li class="fragment grow">Manipulatory</li>
+                </ol>
+            </section>
+            <section>
+                <h2>Elementy po stronie pacjenta</h2>
+                <ol>
+                    <li class="fragment grow">3 lub 4 ramiona</li>
+                    <li class="fragment grow">Końcowe chwytaki robota</li>
+                    <li class="fragment grow">System zabezpieczeń</li>
+                </ol>
+            </section>
+            <section>
+                <h2>Połączenie telekomunikacyjne</h2>
+                <ol>
+                    <li class="fragment grow">Obraz video od Slave do Master</li>
+                    <li class="fragment grow">Komendy sterujące</li>
+                    <li class="fragment grow">Sprzężenie zwrotne</li>
+                </ol>
+            </section>
+            <section>
+                <h2>Połączenie telekomunikacyjne</h2>
+                <div class="fragment">
+                    <p style="margin-top: 0px;"><img src="js/conn.png"/></p>
+                    <small style="margin-top: -43px; font-size:12px;">Źródło: <a
+                            href="https://pl.wikipedia.org/wiki/Teleoperacja#/media/Plik:Diagram_przeplywu_informacji_teleoperacje.svg">Przepływ
+                        informacji w systemie teleoperacyjnym [2]</a>
+                    </small>
+                </div>
+            </section>
+        </section>
+        <section>
+            <section>
+                <h2>Roboty medyczne</h2>
+                <h5 class="fragment fade-in-then-semi-out">Roboty chirurgiczne</h5>
+                <h5 class="fragment fade-in-then-semi-out">Roboty rehabilitacyjne</h5>
+                <h5 class="fragment fade-in-then-semi-out">Roboty nawigacyjne bierne</h5>
+                <h5 class="fragment fade-in-then-semi-out">Roboty nawigacyjne czynne</h5>
+            </section>
+            <section>
+                <h2>Roboty chirurgiczne</h2>
+                <h4 style="color: darkolivegreen;">da Vinci Surgical System</h4>
+                <h5 class="fragment fade-in-then-semi-out">Intuitive Surgical</h5>
+                <h5 class="fragment fade-in-then-semi-out">Wspomaganie operacji</h5>
+                <h5 class="fragment fade-in-then-semi-out">Mała inwazyjność</h5>
+            </section>
+            <section>
+                <h4 style="color: darkolivegreen;">da Vinci Surgical System</h4>
+                <h3>Budowa</h3>
+                <h5 class="fragment fade-in-then-semi-out">system redukcji drżenia rąk</h5>
+                <h5 class="fragment fade-in-then-semi-out">posiada 3 lub 4 ramiona</h5>
+                <h5 class="fragment fade-in-then-semi-out">zręczność zbliżona do ludzkiej dłoni</h5>
+                <ul>
+                    <li class="fragment fade-up">7 stopni swobody</li>
+                    <li class="fragment fade-up">zgina sie pod kątem 90 stopni</li>
+                </ul>
+                <h5 class="fragment fade-in-then-semi-out">dynamiczne dźwignie</h5>
+                <h5 class="fragment fade-in-then-semi-out">system wizyjny inSite</h5>
+            </section>
+            <section>
+                <h2>da Vinci Surgical System</h2>
+                <div class="fragment">
+                    <p style="margin-top: 0px;"><img style="width: 70%; height: 70%;" src="js/daVinci.jpg"/></p>
+                    <small style="margin-top: -43px; font-size:12px;">Źródło: <a
+                            href="https://healthcaremarketexperts.com/aktualnosci/szpital-na-klinach-siodmy-w-polsce-robot-da-vinci/">Robot
+                        chirurgiczny da Vinci Surgical System [5]</a>
+                    </small>
+                </div>
+            </section>
+            <section>
+                <h4 style="color: darkolivegreen;">ZEUS Robotic Surgical System</h4>
+                <h5 class="fragment fade-in-then-semi-out">Computer Motion w 1999 roku</h5>
+                <h5 class="fragment fade-in-then-semi-out">Do zabiegów mało inwazyjnych</h5>
+                <h5 class="fragment fade-in-then-semi-out">Podobny do da Vinci</h5>
+                <h5 class="fragment fade-in-then-semi-out">operacja kardiochirugiczna na bijącym sercu</h5>
+            </section>
+            <section>
+                <h4 style="color: darkolivegreen;">ZEUS Robotic Surgical System</h4>
+                <h3>Budowa</h3>
+                <h5 class="fragment fade-in-then-semi-out">system redukcji drżenia rąk</h5>
+                <h5 class="fragment fade-in-then-semi-out">posiada 3 ramiona robocze</h5>
+                <h5 class="fragment fade-in-then-semi-out">wrażenie widzenia 3D</h5>
+            </section>
+            <section>
+                <h2>ZEUS Robotic Surgical System</h2>
+                <div class="fragment">
+                    <p style="margin-top: 0px;"><img style="width: 40%; height: 40%;" src="js/zeus.png"/></p>
+                    <small style="margin-top: -43px; font-size:12px;">Źródło: <a
+                            href="https://www.researchgate.net/figure/ZEUS-robotic-system-first-robotic-system-to-combine-instrument-and-camera-control_fig3_51437277">Robot
+                        chirurgiczny ZEUS Robotic Surgical System [6]</a>
+                    </small>
+                </div>
+            </section>
+            <section>
+                <h4 style="color: darkolivegreen;">AESOP Robotic System</h4>
+                <h5 class="fragment fade-in-then-semi-out">Computer Motion</h5>
+                <h5 class="fragment fade-in-then-semi-out">Zbudowny dzięki NASA</h5>
+                <h5 class="fragment fade-in-then-semi-out">Pierwszy dopuszczony i zatwierdzony robot</h5>
+                <h5 class="fragment fade-in-then-semi-out">operacja kardiochirugiczna na bijącym sercu</h5>
+            </section>
+            <section>
+                <h4 style="color: darkolivegreen;">AESOP Robotic System</h4>
+                <h3>Budowa</h3>
+                <h5 class="fragment fade-in-then-semi-out">ruchome ramię</h5>
+                <h5 class="fragment fade-in-then-semi-out">kontrola głosowa</h5>
+            </section>
+            <section>
+                <h2>AESOP Robotic System</h2>
+                <div class="fragment">
+                    <p style="margin-top: 0px;"><img style="width: 35%; height: 35%;" src="js/aesop.png"/></p>
+                    <small style="margin-top: -43px; font-size:12px;">Źródło: <a
+                            href="https://www.researchgate.net/figure/Computer-Motions-AESOP-Automatic-Endoscopic-System-for-Optimal-Positioning-has-allowed_fig2_51437277">Robot
+                        chirurgiczny AESOP Robotic System [7]</a>
+                    </small>
+                </div>
+            </section>
+            <section>
+                <h4 style="color: darkolivegreen;">Robot Robin Heart</h4>
+                <h5 class="fragment fade-in-then-semi-out">Polski robot</h5>
+                <h5 class="fragment fade-in-then-semi-out">Fundacja Rozwoju Kardiochirurgii w Zabrzu</h5>
+                <h5 class="fragment fade-in-then-semi-out">Pierwszy europejski robot kardiochirurgiczny</h5>
+                <h5 class="fragment fade-in-then-semi-out">Nie przeszedł jeszcze testów klinycznych</h5>
+            </section>
+            <section>
+                <h4 style="color: darkolivegreen;">Robot Robin Heart</h4>
+                <h3>Budowa</h3>
+                <h5 class="fragment fade-in-then-semi-out">konsola i joystick</h5>
+                <h5 class="fragment fade-in-then-semi-out">kamera i ultrasonograf</h5>
+                <h5 class="fragment fade-in-then-semi-out">teleoperatory zaopatrzone w odczuwanie dotyku</h5>
+            </section>
+            <section>
+                <h2>Robot Robin Heart</h2>
+                <div class="fragment">
+                    <p style="margin-top: 0px;"><img src="js/robin.jpg"/></p>
+                    <small style="margin-top: -43px; font-size:12px;">Źródło: <a
+                            href="http://www.asimo.pl/modele/robin.php">Robot chirurgiczny Robot Robin Heart [8]</a>
+                    </small>
+                </div>
+            </section>
+        </section>
+        <section>
+            <section>
+                <h2>Wykorzystanie</h2>
+                <h5 class="fragment fade-up">Ginekologia</h5>
+                <h5 class="fragment fade-up">Urologia</h5>
+                <h5 class="fragment fade-up">Chirurgia ogólna</h5>
+                <h5 class="fragment fade-up">Kardiologia</h5>
+                <h5 class="fragment fade-up">Neurochirurgia</h5>
+                <h5 class="fragment fade-up">Okulistyka</h5>
+            </section>
+            <section>
+                <h2>Zastosowanie</h2>
+                <h5 class="fragment fade-up">Operacje w trudnych warunkach</h5>
+                <h5 class="fragment fade-up">Telementoring</h5>
+                <h5 class="fragment fade-up">Operacje ze szczególną precyzją</h5>
+            </section>
+            <section>
+                <h2>Lokalizacja</h2>
+            </section>
+        </section>
+        <section>
+            <section>
+                <h2>Wady telechirurgii</h2>
+                <h3 class="fragment fade-in">Ograniczenia</h3>
+                <h4 class="fragment">Ograniczenia stosowania</h4>
+                <ul>
+                    <li class="fragment fade">wysokie koszty</li>
+                    <li class="fragment fade">złożoność</li>
+                    <li class="fragment fade">wielkość systemów</li>
+                    <li class="fragment fade">mała liczba konkurencyjnych rozwiązań</li>
+                    <li class="fragment fade">mała liczba części zmiennych</li>
+                    <li class="fragment fade">serwisowanie</li>
+                    <li class="fragment fade">personel</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Ograniczenia</h3>
+                <h4 class="fragment">Ograniczenia technologiczne</h4>
+                <ul>
+                    <li class="fragment fade">połączenie sieciowe</li>
+                    <li class="fragment fade">dostosowanie do opóźnienia</li>
+                    <li class="fragment fade">brak zmysłu dotyku</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Prawo</h2>
+                <h5 class="fragment">Kwestia odpowiedzialności</h5>
+                <h5 class="fragment">Przerwanie komunikacji</h5>
+                <h5 class="fragment">Zabezpieczenia</h5>
+            </section>
+            <section>
+                <h2>Koszty</h2>
+                <h5 class="fragment">Robot medyczny</h5>
+                <ul>
+                    <li class="fragment fade-in-then-semi-out" style="color: darkolivegreen;">da Vinci - ok. 1,3 miliona USD</li>
+                    <li class="fragment fade-in-then-semi-out" style="color: darkolivegreen;">co roczny serwis - ok. 135 tys. USD</li>
+                </ul>
+                <h5 class="fragment">Połączenie telekomunikacyjne</h5>
+                <h5 class="fragment">Infrastruktura</h5>
+                <h5 class="fragment">Szkolenie personelu</h5>
+                <h5 class="fragment">Zabieg</h5>
+                <ul>
+                    <li class="fragment fade-in-then-semi-out" style="color: darkolivegreen;">da Vinci w Polsce - 15-30 tys. zł</li>
+                    <li class="fragment fade-in-then-semi-out" style="color: darkolivegreen;">po 10 zabiegach, nowy zestaw narzędzi</li>
+                </ul>
+            </section>
+        </section>
+        <section>
+            <section>
+                <h2>Przyszłość telechirurgii</h2>
+                <h5 class="fragment grow">Większa powszechność</h5>
+                <h5 class="fragment grow">Wykorzystanie technologii haptycznej</h5>
+                <h5 class="fragment grow">Operacje w przestrzeni kosmicznej</h5>
+                <h5 class="fragment grow">Automatyzacja zadań chirurgicznych</h5>
+                <h5 class="fragment grow">Akceptacja</h5>
+            </section>
+        </section>
+        <section>
+            <section>
+                <h2>Źródła</h2>
+            </section>
+            <section style="text-align: left; font-size:20px;">
+                <p>[1] Źródło: <a
+                        href="https://www.surgeryencyclopedia.com/St-Wr/Telesurgery.html">https://www.surgeryencyclopedia.com/St-Wr/Telesurgery.html</a>
+                </p>
+                <p>[2] Źródło: <a
+                        href="https://en.wikipedia.org/wiki/Remote_surgery">https://en.wikipedia.org/wiki/Remote_surgery</a>
+                </p>
+                <p>[3] Źródło: <a
+                        href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6067812/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6067812/</a>
+                </p>
+                <p>[4] Źródło: <a
+                        href="http://www.telemedycyna.ur.edu.pl/index.php?k=telechirurgia">http://www.telemedycyna.ur.edu.pl/index.php?k=telechirurgia</a>
+                </p>
+                <p>[5] Źródło: <a
+                        href="https://healthcaremarketexperts.com/aktualnosci/szpital-na-klinach-siodmy-w-polsce-robot-da-vinci/">https://healthcaremarketexperts.com/aktualnosci/szpital-na-klinach-siodmy-w-polsce-robot-da-vinci/</a>
+                </p>
+                <p>[6] Źródło: <a
+                        href="http://www.asimo.pl/modele/robin.php">http://www.asimo.pl/modele/robin.php</a>
+                </p>
+                <p>[7] Źródło: <a
+                        href="https://www.researchgate.net/figure/Computer-Motions-AESOP-Automatic-Endoscopic-System-for-Optimal-Positioning-has-allowed_fig2_51437277">https://www.researchgate.net/figure/Computer-Motions-AESOP-Automatic-Endoscopic-System-for-Optimal-Positioning-has-allowed_fig2_51437277</a>
+                </p>
+                <p>[8] Źródło: <a
+                        href="https://www.researchgate.net/figure/ZEUS-robotic-system-first-robotic-system-to-combine-instrument-and-camera-control_fig3_51437277">https://www.researchgate.net/figure/ZEUS-robotic-system-first-robotic-system-to-combine-instrument-and-camera-control_fig3_51437277</a>
+                </p>
+                <p>[9] Źródło: <a
+                        href="">"Robotyka w medycynie" Zygmunt Zdrojewicz
+                    , Wojciech Witkiewicz
+                    , Anna Dołowiec
+                    , Jakub Głód</a>
+                </p>
+                <p>[10] Źródło: <a
+                        href="https://www.medicaldesignandoutsourcing.com/robotic-telesurgery-future-corindus/">https://www.medicaldesignandoutsourcing.com/robotic-telesurgery-future-corindus/</a>
+                </p>
+                <p>[11] Źródło: <a
+                        href="https://dzienniklodzki.pl/lodz-pierwsza-operacja-z-robotem-kardiochirurgicznym-w-polsce-operacje-przeprowadzi-dr-religa/ar/11569034">https://dzienniklodzki.pl/lodz-pierwsza-operacja-z-robotem-kardiochirurgicznym-w-polsce-operacje-przeprowadzi-dr-religa/ar/11569034</a>
+                </p>
+            </section>
+        </section>
+
+        <section>
+            <section>
+                <h2>Dziękujemy za uwagę</h2>
+            </section>
+            <section data-background-image="js/gif.gif">
+            </section>
+        </section>
+
+    </div>
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+    // More info about config & dependencies:
+    // - https://github.com/hakimel/reveal.js#configuration
+    // - https://github.com/hakimel/reveal.js#dependencies
+    Reveal.initialize({
+        slideNumber: true,
+        controlsLayout: 'edges',
+        dependencies: [
+            {src: 'plugin/markdown/marked.js'},
+            {src: 'plugin/markdown/markdown.js'},
+            {src: 'plugin/notes/notes.js', async: true},
+            {
+                src: 'plugin/highlight/highlight.js', async: true, callback: function () {
+                    hljs.initHighlightingOnLoad();
+                }
+            }
+        ]
+    });
+</script>
+</body>
+</html>
